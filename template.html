@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles\main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header id="titles">
+        <h1 onclick="say()">World Countries Data</h1>
+        <h3>Currently, we have <span id="num-countries">250</span> countires</h3>
+    </header>
+    <hr id="title-bottom">
+    <main>
+        <div id="selector">
+            <div id="buttons">
+                <button id="population-button">Population</button>
+                <button id="languages-button">Languages</button>
+            </div>
+          <p id="title-info">10 Most spoken languages in the world</p>
+        </div>
+        <hr id="selector-bottom">
+
+        <ul id="info-container">
+            <li>
+                <p>World</p>
+                <div class="progress">
+                    <div></div>
+                </div>
+                <p>7,123,123,293</p>
+            </li>
+            <li>
+                <p>World</p>
+                <div class="progress">
+                    <div></div>
+                </div>
+                <p>7,123,123,293</p>
+            </li>
+            <li>
+                <p>World</p>
+                <div class="progress">
+                    <div></div>
+                </div>
+                <p>7,123,123,293</p>
+            </li>
+        </ul>
+    </main>
+    
+    <script src="scripts\main.js" type="module"></script>
+</body>
+</html>

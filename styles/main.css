@@ -1,0 +1,98 @@
+:root{
+    --yellow: rgb(242,169,59);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+ }
+
+#titles h1{
+    color: var(--yellow);
+    font-size: 4rem;
+}
+
+#title-bottom{
+    border-bottom: 1px dimgray thin;
+}
+
+#selector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    gap: 0.5rem;
+}
+
+#buttons button{
+    background-color: var(--yellow);
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem 1.4rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+#buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+#selector p {
+    margin-top: 0.6rem;
+}
+
+#slector-bottom{
+    border-bottom: 1px dimgray thin;
+}
+
+#info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+#info-container li{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    width: 70%;
+    
+}
+
+#info-container li p{
+    white-space: nowrap;
+    width: 5rem;
+}
+
+.progress{
+    width: 50%;
+    height: 2rem;
+
+}
+
+.progress div{
+    width: 100%;
+    height: 100%;
+    background-color: var(--yellow);
+    border-radius: 5px;
+}
+
